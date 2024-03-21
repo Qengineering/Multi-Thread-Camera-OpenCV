@@ -15,7 +15,17 @@ However, the more cameras, the more CPU time is needed to visit all seperate thr
 ## Dependencies.
 To run the application, you have to:
 - OpenCV installed [32-bit](https://qengineering.eu/install-opencv-4.5-on-raspberry-pi-4.html) or [64-bit](https://qengineering.eu/install-opencv-4.5-on-raspberry-64-os.html) OS<br/>
-- Code::Blocks installed. (```$ sudo apt-get install codeblocks```)
+
+------------
+
+## Build project
+Create build path and build project with cmake as follows:
+```
+rm -rf build && mkdir -p build && cd build
+cmake .. && make
+```
+
+Alternatively, you can also build the project using Code::Blocks to which you need to install it (```$ sudo apt-get install codeblocks```).
 
 ------------
 
